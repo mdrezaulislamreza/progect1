@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+/* ---------------------Header Section----------------- */
+
+header{
+    width:100%;
+    height: 20vh;
+    overflow: hidden;
+  
+}
+
+header .logo {
+    width: 20%;
+    float:left;
+}
+
+.logo img{
+    width: 20%;
+    padding-left: 140px;
+    margin: 10px;
+    cursor: pointer;
+}
+header .menu{
+    float: left;
+    padding-left: 500px;
+}
+
+.menu ul li{
+   float: left;
+   padding: 18px;
+  
+ 
+}
+
+header .menu ul li a{
+   color: rgb(255, 255, 255);
+   background-color: rgb(119, 190, 4);
+   padding: 10px;
+}
+
+.menu ul li a:hover{
+    background-color: rgb(13, 38, 150);
+    color: brown;
+    border-radius: 20px;
+    transition: .5s;
+}
+
+/* ---------------------Middle Section----------------- */
+
+#middle{
+   background-image: url(benner.jpg);
+   height: 70vh; 
+}
+
+#middle h1{
+    color: rgb(15, 230, 50);
+    text-align: center;
+    padding-top: 100px;
+    line-height: 100px;
+}
+#middle h1 b{
+    color: red;
+    font-size: 43px;
+}
+
+#middle p{
+    color: rgb(2, 230, 59);
+    text-align: center;
+   
+}
+
+button{
+    margin-left: 47%;
+    padding: 5px;
+    background-color: yellow;
+    border-radius: 30px;
+}
+
+/* ---------------Card Section------------------ */
+
+.card{
+    height: 30vh;
+    float: left;
+    
+  
+}
+
+.card_1{
+    float: left;
+    width: 21%;
+    border: 2px solid gray;
+    padding: 10px;
+    margin: 10px;
+}
+
+.card_1:hover{
+    background-color: yellow;
+    transition: 1s;
+    
+}
+
+
+.card_1 h1{
+    text-align: center;
+    color: rgb(255, 0, 0);
+}
+ 
+.card_1 img{
+    width: 140px;
+    padding-left: 70px;    
+}
+
+.card_1 p{
+    text-align: center;
+}
+ 
+.card_1 button{
+    border-radius: 10px;
+    padding: 0 20px;
+    cursor: pointer;
+}
+
+/* ---------------footer Section------------------ */
